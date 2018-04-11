@@ -9,9 +9,8 @@ public final class OutputToConsole {
 	}
 
 	public static <T> void printList(List<T> list) {
-		System.out.println("==========================================");
 		for (T item : list) {
-			System.out.println(item);
+			System.out.println(item); 
 		}
 	}
 
