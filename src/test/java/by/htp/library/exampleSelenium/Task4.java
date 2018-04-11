@@ -52,36 +52,6 @@ public class Task4 {
 
 		WebElement company = driver.findElement(By.name("personalForm.company"));
 		company.sendKeys("htp");		
-		
-//		driver.get("https://mail.ru/");
-//		Thread.sleep(2000);
-//		
-//		WebElement loginMail = driver.findElement(By
-//				.name("login"));
-//		loginMail.sendKeys("artemkaptur");
-//
-//		WebElement passwordMail = driver.findElement(By
-//				.name("password"));
-//		passwordMail.sendKeys("artem060812kaptur");
-//		
-//		WebElement submitButtonMail = driver.findElement(By
-//				.xpath("//*[@id=\'mailbox:submit\']/input"));
-//		submitButtonMail.click();
-//		
-//		Thread.sleep(3000);
-//		
-//		WebElement QuizLetter = driver.findElement(By.className("b-datalist__item__subj"));
-//		QuizLetter.click();
-//		
-//		Thread.sleep(3000);
-//		
-//		WebElement emailAprove = driver.findElement(By.linkText("http://www.quizful.net/LoginAction.verifyEmail?code=AVAAkiec7SY6"));
-//		emailAprove.click();
-//		
-//		Thread.sleep(3000);
-//		
-//		String succesProof = driver.getCurrentUrl();		
-//		Assert.assertEquals(succesProof, "http://www.quizful.net/test");
 
 	}
 }
